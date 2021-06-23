@@ -1,0 +1,37 @@
+@media (max-width: 1440px) {
+    .container {
+        width: 70%;
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .insta-phone {
+        display: none;
+    }
+    .insta-content {
+        width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+    .insta-content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .insta-box {
+        width: 100%;
+        border: none;
+    }
+}
